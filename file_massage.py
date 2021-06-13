@@ -94,15 +94,15 @@ for file in list_of_files:
     elif fullpart(ar)==1:
         if whichcat(ar) in [0,1,2,3,4,-1] and gate(ar)[1] >= 780:
             filegen.append(file)
-        elif whichcat(ar) == 1 and gate(ar)[1] >= 750 and gate(ar)[1] < 780:
+        elif whichcat(ar) == 1 and gate(ar)[1] >= xxx and gate(ar)[1] < xxx:
             filegenews.append(file)
-        elif whichcat(ar) == 2 and gate(ar)[1] >=750 and gate(ar)[1] < 780:
+        elif whichcat(ar) == 2 and gate(ar)[1] >=xxx and gate(ar)[1] < xxx:
             fileobc.append(file)
-        elif whichcat(ar) == 3 and gate(ar)[1] >= 588 and gate(ar)[1] < 780:
+        elif whichcat(ar) == 3 and gate(ar)[1] >= xxx and gate(ar)[1] < xxx:
             filesc.append(file)
-        elif whichcat(ar) == 4 and gate(ar)[1] >= 500 and gate(ar)[1] < 780:
+        elif whichcat(ar) == 4 and gate(ar)[1] >= xxx and gate(ar)[1] < xxx:
             filest.append(file)
-        elif whichcat(ar) == -1 and gate(ar)[1] >= 500 and gate(ar)[1] < 780:
+        elif whichcat(ar) == -1 and gate(ar)[1] >= xxx and gate(ar)[1] < xxx:
             fileph.append(file)
         else:
             erroneous.append(file)
