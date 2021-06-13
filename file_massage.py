@@ -92,7 +92,7 @@ for file in list_of_files:
     if fullpart(ar)==0:
         filepart.append(file)
     elif fullpart(ar)==1:
-        if whichcat(ar) in [0,1,2,3,4,-1] and gate(ar)[1] >= 780:
+        if whichcat(ar) in [0,1,2,3,4,-1] and gate(ar)[1] >= xxx:
             filegen.append(file)
         elif whichcat(ar) == 1 and gate(ar)[1] >= xxx and gate(ar)[1] < xxx:
             filegenews.append(file)
